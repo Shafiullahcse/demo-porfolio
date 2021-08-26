@@ -1,0 +1,34 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+h1{
+    font-size: 50px;
+}
+.name{
+    color: orange;
+}
+section {
+    display: flex;
+}
+.one{
+   width: 50%; 
+   padding-left: 5%;
+}
+.one img{
+width: 60%;
+}
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient( Blue,skyblue );
+    color: aliceblue;    
+    font-weight: 900px ;
+    padding: 10px 30px;
+    border-radius: 10%;
+
+}
+.sec-one{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
