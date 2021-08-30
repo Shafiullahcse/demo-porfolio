@@ -13,7 +13,7 @@ h2{
 }
 .flexiable-container {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .one{
    width: 60%; 
@@ -48,11 +48,12 @@ width: 90%;
 .expo-item{
     font-size: 20px;
     width: 40%;
-    margin-left: 10%;
+    margin-left: 7%;
     margin-right: 5%;
-    padding: 4%;
+    padding-left: 2%;
     border-radius: 5px;
     box-shadow: 10px 10px 10px gray ;
+    
 }
 .last-part {
     background-image: url(images/exp-bg.png);
@@ -61,4 +62,17 @@ width: 90%;
 }
 .headline{
     font-size: 40px;
+}
+#dev-expo{
+    border-left: 6px solid;
+    border-image: linear-gradient( blue,cyan ) ;
+    border-image-slice: 1;
+}
+#full-stack{
+    border-left: 6px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
